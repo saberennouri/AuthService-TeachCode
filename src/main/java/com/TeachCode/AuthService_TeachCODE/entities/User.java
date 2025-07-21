@@ -53,10 +53,10 @@ public class User implements UserDetails {
 
     @Column(name = "is_verified",nullable = false)
     private boolean isVerified=false;
-    @Column(name = "Verification_token")
+    @Column(name = "verification_token")
     private String verificationToken;
 
-    @Column(name = "Verification_token_expiry")
+    @Column(name = "verification_token_expiry")
     private LocalDateTime verificationTokenExpiry;
     @Column(name = "is_enabled")
     private boolean isEnabled = true;
